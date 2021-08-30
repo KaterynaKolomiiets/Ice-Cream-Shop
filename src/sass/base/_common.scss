@@ -34,3 +34,21 @@ img {
   max-width: 100%;
   height: auto;
 }
+.top-header {
+  font-family: var(--header-font-family);
+  font-size: 18px;
+  line-height: 1.16;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--worktime-color);
+}
+.title {
+  font-family: var(--header-font-family);
+  font-size: 34px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  background-image: url('../images/products/icecream-mob-2-1x.png');
+}
