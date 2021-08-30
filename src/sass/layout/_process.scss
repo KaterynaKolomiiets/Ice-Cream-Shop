@@ -1,0 +1,124 @@
+.process-section {
+  background-color: var(--main-background);
+  background-image: url('../images/process/bg-milk-process-section.png');
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: 100%;
+  background-position: 0 40%;
+  padding-top: 125px;
+  padding-bottom: 310px;
+}
+
+/* .subtitle-process-section {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffa5ba;
+  padding-bottom: 15px;
+}
+
+.title-process-section {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 66px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #d41443;
+} */
+
+.description-container {
+  padding-top: 102px;
+  font-family: var(--main-font-family);
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.img-cow {
+  padding-right: 74px;
+}
+
+/* .description-list {
+  text-align: left;
+} */
+
+.description-item1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 176%;
+  letter-spacing: 0.04em;
+  color: var(--main-text-color);
+  margin-bottom: 35px;
+  max-width: 463px;
+}
+
+.description-item2,
+.description-item3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 194%;
+  letter-spacing: 0.04em;
+  color: var(--paragraph-text-color);
+  max-width: 463px;
+}
+
+.description-item3 {
+  margin-top: 15px;
+}
+
+.button-process-section {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--main-title-color);
+  background: #ffffff;
+  border-radius: 22px;
+  border: none;
+  padding: 10px 37px;
+}
+
+.definitions-list {
+  display: flex;
+}
+
+.definitions-containers {
+  max-width: 300px;
+
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+.img-icon {
+  margin-bottom: 40px;
+}
+
+.definitions {
+  font-family: var(--header-font-family);
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 66px;
+  text-align: left;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  margin-bottom: 15px;
+}
+
+.text-of-definitions {
+  font-family: var(--main-font-family);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 176%;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
