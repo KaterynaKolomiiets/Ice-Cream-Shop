@@ -1,12 +1,12 @@
 :root {
   // Background colors
-  --main-backgournd: #ffb8ca;
+  --main-background: #ffb8ca;
   --secondary-background: #ffa5ba;
-  --section-bacground: #fff5f6;
-  --primary-button-bacgound: #d41443;
+  --section-background: #fff5f6;
+  --primary-button-background: #d41443;
   --secondary-button-color: #ffffff;
-  --mobile-button-bacground: #ecebeb;
-  --sociallink-backgourn: #fea5bb;
+  --hover-button-background: #ecebeb;
+  --sociallink-background: #fea5bb;
 
   // Text colors
   --main-title-color: #d41443;
@@ -17,6 +17,6 @@
   --worktime-color: #ffa5ba;
 
   // Text style
-  --main-font-style: DM Sans, sans-serif;
-  --header-font-style: Titan One, sans-serif;
+  --main-font-family: 'DM Sans', sans-serif;
+  --header-font-family: 'Titan One', 'cursive';
 }
