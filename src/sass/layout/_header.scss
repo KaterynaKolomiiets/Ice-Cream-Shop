@@ -1,0 +1,25 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: rgb(95, 236, 95);
+}
+.burger {
+  display: none;
+  @media screen and (max-width: 1280px) {
+    background-color: transparent;
+    border: transparent;
+  }
+}
+.burger__wrap {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+}
+.burger__icon {
+  height: 12px;
+  width: 20px;
+}
