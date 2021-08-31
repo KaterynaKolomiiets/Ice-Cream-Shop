@@ -1,5 +1,8 @@
 .product__title {
   position: relative;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
   font-family: var(--header-font-family);
   font-size: 20px;
   line-height: 1.15;
@@ -8,14 +11,15 @@
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
+
 .product__title::after {
   content: '';
+  display: block;
   width: 26px;
   height: 6px;
   position: absolute;
   background-image: url('../images/products/dots.png');
   top: 50px;
-  transform: translateX(-260%);
 }
 .container--pudding {
   padding-bottom: 98px;
