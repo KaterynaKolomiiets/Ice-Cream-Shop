@@ -1,13 +1,15 @@
 <section class="process-section">
     <div class="container">
-        <p class="top-header">tradition and love</p>
-        <h2 class="title margin-title">how it’s made?</h2>
+        <p class="process-top-header">tradition and love</p>
+        <h2 class="process-title">how it’s made?</h2>
         <div class="description-container">
             <picture>
-                <source srcset="\images\process\img-cow.png 1x, \images\process\img-cow-@2x.png 2x">
+                <source srcset="\images\process\img-cow-desktop.png 1x, \images\process\img-cow-desktop-@2x.png 2x" media="(min-width: 1200px)">
+                <source srcset="\images\process\img-cow-tablet.png 1x, \images\process\img-cow-tablet-@2x.png 2x" media="(min-width: 768px)">
+                <source srcset="\images\process\img-cow-mobile.png 1x, \images\process\img-cow-mobile-@2x.png 2x" media="(max-width: 767px)">
                 <img src="#" alt="img_cow" class="img-cow">
             </picture>
-            <div class="listtt">
+            <div class="list-container">
             <ul class="description-list list">
                 <li class="description-list__item1">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo
                     cursus, faucibus lorem eget, egestas eros.Maecenas eleifend erat at justo fringilla.</li>
@@ -17,10 +19,10 @@
                 <li class="description-list__item3">Aliquam erat volutpat. Aenean accumsan.</li>
             </ul>
 
-            <button class="button-process-section" type="button" data-modal-open>Read more
-                <!-- <svg class="button-icon" height="8" width="4">
-                <use href="/images/icons/sprite.svg"></use>
-                </svg> -->
+            <button class="main-button btn-margin" type="button" data-modal-open>Read more
+                <svg class="button-icon" height="10" width="10">
+                <use href="/images/icons/sprite.svg#icon-arrow-button"></use>
+                </svg>
             </button>
             </div>
 
@@ -28,20 +30,17 @@
 
         <ul class="definitions-list list">
             <li class="definitions-list__containers">
-                <img src="/images/process/icon1-process-section.png" alt="icon1" width="33" height="30"
-                    class="definitions-img">
+                <img src="/images/process/icon1-process-section.png" alt="icon1" width="33" height="30" class="definitions-img img1">
                 <h2 class="definitions-subtitle">721</h2>
                 <p class="definitions-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
             </li>
             <li class="definitions-list__containers">
-                <img src="/images/process/icon2-process-section.png" alt="icon2" width="50" height="50"
-                    class="definitions-img">
+                <img src="/images/process/icon2-process-section.png" alt="icon2" width="50" height="50" class="definitions-img img2">
                 <h2 class="definitions-subtitle">16kg</h2>
                 <p class="definitions-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
             </li>
             <li class="definitions-list__containers">
-                <img src="/images/process/icon3-process-section.png" alt="icon3" width="45" height="50"
-                    class="definitions-img">
+                <img src="/images/process/icon3-process-section.png" alt="icon3" width="45" height="50" class="definitions-img img3">
                 <h2 class="definitions-subtitle">84</h2>
                 <p class="definitions-text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
             </li>
