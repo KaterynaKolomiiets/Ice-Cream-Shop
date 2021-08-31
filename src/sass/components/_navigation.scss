@@ -19,3 +19,8 @@
 .nav__link_current {
   color: var(--main-title-color);
 }
+.nav {
+  @media screen and (max-width: 1280px) {
+    display: none;
+  }
+}
