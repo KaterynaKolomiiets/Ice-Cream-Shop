@@ -1,5 +1,5 @@
 <section class="hero">
-  <div class="container">
+  <div class="container hero-container">
     <div class="placing">
       <div class="hero-left-side">
         <h1 class="hero__title">
@@ -7,10 +7,12 @@
         </h1>
         <ul class="hero-anchors__list list">
           <li class="hero-anchors__item">
-            <a class="secondary-button link" href="">Products </a>
+            <a class="secondary-button hero-anchors__btn link" href="">Products </a>
           </li>
           <li class="hero-anchors__item">
-            <a class="secondary-button secondary-button--light link" href="">How it’s made? </a>
+            <a class="secondary-button secondary-button--light hero-anchors__btn link" href=""
+              >How it’s made?
+            </a>
           </li>
         </ul>
         <div class="hero-meta">
@@ -18,7 +20,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et
           </p>
-          <button class="description-button" type="button">
+          <button class="description-button hero__descr-btn" type="button">
             <svg class="description-button__icon">
               <use href="./images/icons/sprite.svg#icon-arrow-right"></use>
             </svg>
@@ -31,10 +33,86 @@
           <li class="hero__item"><span class="hero__count">23</span>food trucks</li>
         </ul>
       </div>
-      <img class="hero__img1" src="./images/hero/desktop/milk-desk@1x.png" alt="" />
-      <img class="hero__img2" src="./images/hero/desktop/ice-cream-desk@1x.png" alt="" />
-      <img class="hero__img3" src="./images/hero/desktop/tasty-desk@1x.png" alt="" />
-      <img class="hero__img4" src="./images/hero//desktop/Ellipse-hero-desk.png" alt="" />
+      <picture>
+        <source
+          srcset="
+            ./images/hero/desktop/milk-desk@1x.png 1x,
+            ./images/hero/desktop/milk-desk@2x.png 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <source
+          srcset="./images/hero/tablet/milk-tab@1x.png 1x, ./images/hero/tablet/milk-tab@2x.png 2x"
+          media="(min-width: 768px)"
+        />
+        <img class="hero__img1" src="#" alt="" />
+      </picture>
+      <picture>
+        <source
+          srcset="
+            ./images/hero/desktop/ice-cream-desk@1x.png 1x,
+            ./images/hero/desktop/ice-cream-desk@2x.png 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <source
+          srcset="
+            ./images/hero/tablet/ice-cream-tab@1x.png 1x,
+            ./images/hero/tablet/ice-cream-tab@2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./images/hero/mobile/ice-cream-mob@1x.png 1x,
+            ./images/hero/mobile/ice-cream-mob@2x.png 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img class="hero__img2" src="#" alt="" />
+      </picture>
+      <picture>
+        <source
+          srcset="
+            ./images/hero/desktop/tasty-desk@1x.png 1x,
+            ./images/hero/desktop/tasty-desk@2x.png 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <source
+          srcset="
+            ./images/hero/tablet/tasty-tab@1x.png 1x,
+            ./images/hero/tablet/tasty-tab@2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+
+        <img class="hero__img3" src="#" alt="" />
+      </picture>
+      <picture>
+        <source
+          srcset="
+            ./images/hero/desktop/Ellipse-hero-desk@1x.png 1x,
+            ./images/hero/desktop/Ellipse-hero-desk@2x.png 2x
+          "
+          media="(min-width: 1200px)"
+        />
+        <source
+          srcset="
+            ./images/hero/tablet/Ellipse-hero-tab@1x.png 1x,
+            ./images/hero/tablet/Ellipse-hero-tab@2x.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./images/hero/mobile/Ellipse-hero-mob@1x.png 1x,
+            ./images/hero/mobile/Ellipse-hero-mob@2x.png 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img class="hero__img4" src="#" alt="" />
+      </picture>
     </div>
   </div>
 </section>
