@@ -1,4 +1,4 @@
-.section__worktime {
+.worktime {
   margin-top: 86px;
   font-size: 12px;
   line-height: 1.6;
@@ -9,7 +9,7 @@
     line-height: 1.8;
     background-image: linear-gradient(to top, var(--main-background) 90%, #ffffff 10%);
   }
-  @media screen and (min-width: 1279px) {
+  @media screen and (min-width: 1280px) {
     font-size: 16px;
     line-height: 1.8;
     background-image: linear-gradient(to top, var(--main-background) 90%, #ffffff 10%);
@@ -36,7 +36,7 @@
   background-color: #f0d1a5;
   color: #ffffff;
   width: 80px;
-  //   padding: 0 20px;
+  padding: 0 20px;
   padding-left: auto;
   padding-right: auto;
   text-transform: uppercase;
@@ -44,7 +44,7 @@
   margin-bottom: 25px;
   &.foodtruck {
     background-color: #c2e297;
-    width: 120px;
+    width: 130px;
   }
   @media screen and (min-width: 768px) {
     margin-bottom: 30px;
@@ -102,7 +102,15 @@
   font-size: 1.4;
 }
 
-.worktimr__buttons {
+.worktime__buttons {
   display: flex;
   justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  @media screen and (max-width: 480px) {
+    flex-wrap: wrap;
+    .secondary-button {
+      margin-bottom: 10px;
+    }
+  }
 }
