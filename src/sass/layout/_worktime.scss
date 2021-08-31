@@ -1,5 +1,6 @@
 .worktime {
   margin-top: 86px;
+  padding-bottom: 80px;
   font-size: 12px;
   line-height: 1.6;
   font-weight: 500;
@@ -31,24 +32,23 @@
     margin-bottom: 30px;
   }
 }
-
-.worktime__head {
+.worktime__head-title {
   background-color: #f0d1a5;
-  color: #ffffff;
   width: 80px;
-  padding: 0 20px;
-  padding-left: auto;
-  padding-right: auto;
-  text-transform: uppercase;
+  text-align: center;
   border-radius: 4px;
   margin-bottom: 25px;
   &.foodtruck {
-    background-color: #c2e297;
     width: 130px;
+    background-color: #c2e297;
   }
   @media screen and (min-width: 768px) {
     margin-bottom: 30px;
   }
+}
+.worktime__head {
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .worktime__company {
@@ -106,7 +106,6 @@
   display: flex;
   justify-content: center;
   margin-top: 80px;
-  margin-bottom: 80px;
   @media screen and (max-width: 480px) {
     flex-wrap: wrap;
     .secondary-button {
