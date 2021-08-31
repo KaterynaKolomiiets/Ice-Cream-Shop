@@ -40,5 +40,8 @@
 <symbol id="icon-grey-dot" viewBox="0 0 32 32">
 <path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
 </symbol>
+<symbol id="icon-border" viewBox="0 0 2864 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="16" d="M0 16h2864"></path>
+</symbol>
 </defs>
 </svg>
