@@ -51,15 +51,3 @@ img {
   text-transform: uppercase;
   color: var(--main-title-color);
 }
-.products__list li {
-  border-radius: 24px;
-  &:first-child {
-    background-color: var(--secondary-background);
-  }
-  &:nth-child(2) {
-    background-color: #f0d1a5;
-  }
-  &:last-child {
-    background-color: #c2e297;
-  }
-}
