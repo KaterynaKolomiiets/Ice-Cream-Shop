@@ -46,6 +46,10 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
+  &:hover,
+  &:focus {
+    background-color: var(--primary-button-background);
+  }
   @media screen and (min-width: 768px) {
     width: 34px;
     height: 34px;
@@ -67,7 +71,6 @@
   }
 }
 .footer__tel {
-  font-weight: 500;
   color: var(--main-title-color);
 }
 
@@ -79,5 +82,9 @@
   border-top: 1px solid #e1e1e1;
 }
 .footer__paragtraph {
+  margin: 0 auto;
   color: var(--paragraph-text-color);
+  @media screen and (max-width: 490px) {
+    width: 160px;
+  }
 }

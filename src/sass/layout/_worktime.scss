@@ -4,7 +4,7 @@
   font-size: 12px;
   line-height: 1.6;
   font-weight: 500;
-  background-image: linear-gradient(to top, var(--main-background) 93%, #ffffff 7%);
+  background-image: linear-gradient(to top, var(--main-background) 95%, #ffffff 5%);
   @media screen and (min-width: 768px) {
     font-size: 14px;
     line-height: 1.8;
@@ -13,7 +13,11 @@
   @media screen and (min-width: 1280px) {
     font-size: 16px;
     line-height: 1.8;
-    background-image: linear-gradient(to top, var(--main-background) 90%, #ffffff 10%);
+    background-image: url(../images/worktime/decoration.png),
+      linear-gradient(to top, var(--main-background) 85%, #ffffff 15%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 25%;
   }
 }
 
@@ -111,14 +115,17 @@
   display: flex;
   justify-content: center;
   margin-top: 80px;
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 767px) {
     flex-wrap: wrap;
-    .secondary-button {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+    .main-button--dark {
       margin-bottom: 10px;
     }
   }
-  @media screen and (min-width: 320px) {
-    .second__button {
+  @media screen and (min-width: 768px) {
+    .main-button--dark {
       margin-right: 15px;
     }
   }
