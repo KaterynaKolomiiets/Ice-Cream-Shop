@@ -85,7 +85,7 @@
 .slider__text::before{
     content: " ";
     display: block;
-    background-image: url('../images/slider/quotes.png');
+    background-image: url('../images/slider/quotes.svg');
     position: absolute;
     z-index: -1;
     height: 40px;
@@ -113,22 +113,36 @@
     text-align: center;
     margin-bottom: 35px;
 }
-.slick-dots li button {
-  background: url('../images/slider/pagination_circle.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  text-indent: -9999px;
-  overflow: hidden;
-  height: 11px;
-  width: 11px;
- 
+.pagination{
+    display: flex;
+    justify-content: center;
 }
-li.slick-active button {
-  background: url('../images/slider/house.png');
-  background-repeat:no-repeat;
-  background-position: center;
-  text-indent: -9999px;
-  overflow: hidden;
-  height: 12px;
-  width: 12px;
+.pagination li:not(:last-child) {
+    margin-right: 18px;
+}
+.pagination button {
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+}
+.pagination button::before {
+    content: " ";
+    display: block;
+    height: 12px;
+    width: 12px;
+    background-color: var(--pagination-background);
+    border-radius: 50%;
+}
+.pagination li.slick-active button::before {
+    background-image: url('../images/slider/house.svg');
+    border-radius: 0%;
+    height: 12px;
+    width: 12px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
 }
