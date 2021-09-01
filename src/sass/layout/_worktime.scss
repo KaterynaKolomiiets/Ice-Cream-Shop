@@ -113,12 +113,12 @@
   margin-top: 80px;
   @media screen and (max-width: 479px) {
     flex-wrap: wrap;
-    .secondary-button {
+    .main-button--dark {
       margin-bottom: 10px;
     }
   }
   @media screen and (min-width: 320px) {
-    .second__button {
+    .main-button--dark {
       margin-right: 15px;
     }
   }
