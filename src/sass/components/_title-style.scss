@@ -5,6 +5,12 @@
   text-align: center;
   text-transform: uppercase;
   color: var(--worktime-color);
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 30px;
+  }
 }
 .title {
   font-family: var(--header-font-family);
@@ -14,4 +20,10 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--main-title-color);
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 58px;
+  }
 }
