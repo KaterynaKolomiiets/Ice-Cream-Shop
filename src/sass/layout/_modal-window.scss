@@ -1,3 +1,4 @@
+/* MODAL WINDOW CSS  */
 .backdrop {
   position: fixed;
   top: 0;
@@ -25,11 +26,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 300px;
-  height: 470px;
+  height: 480px;
   background-color: #fff;
   padding: 40px;
   background-color: #ffe1e8;
   border-radius: 10px;
+  border: 4px solid #fff;
 
   @media screen and (min-width: 768px) {
     width: 400px;
@@ -78,7 +80,7 @@
   letter-spacing: 0.04em;
   color: #000000;
   text-align: center;
-  padding-bottom: 15px;
+  margin-bottom: 10px;
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
