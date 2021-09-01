@@ -71,6 +71,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+.description-button__icon--big {
+  height: 15px;
+  width: 15px;
+}
 @media screen and (min-width: 768px) {
   .products__list {
     display: flex;
