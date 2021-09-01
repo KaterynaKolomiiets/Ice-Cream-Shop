@@ -1,3 +1,15 @@
-.element-item {
-  margin-bottom: 5px;
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid__item {
+  width: 40px;
+  height: auto;
+}
+.grid__item.big{
+  width: 80px;
+  height: auto;
+}
+.grid__pic {
+  width: 100%;
 }
