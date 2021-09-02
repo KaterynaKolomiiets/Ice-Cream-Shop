@@ -400,32 +400,3 @@
     height: 538px;
   }
 }
-@keyframes scaling {
-  0% {
-    scale: 1;
-  }
-
-  50% {
-    scale: 0.9;
-  }
-
-  100% {
-    scale: 0.8;
-  }
-}
-@keyframes shaking {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  30% {
-    transform: rotate(20deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(-20deg);
-  }
-}
