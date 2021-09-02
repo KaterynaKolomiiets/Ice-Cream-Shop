@@ -63,7 +63,9 @@ button {
 }
 
 .secondary-button {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 40px;
   padding: 10px 24px;
   background-color: var(--primary-button-background);

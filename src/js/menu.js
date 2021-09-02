@@ -11,4 +11,5 @@
   function toggleModal() {
     refs.menu.classList.toggle("is-open");
   }
+  
 })();
