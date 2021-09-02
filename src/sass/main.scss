@@ -20,6 +20,10 @@
 @import './components/social-links';
 @import './components/title-style';
 @import './components/mobile-menu';
+@import './components/animations';
+@import './components/modal-header-window';
+
+// LAYOUTS
 @import './layout/feedback';
 @import './layout/footer';
 @import './layout/gallery-masonry';
@@ -29,4 +33,3 @@
 @import './layout/products';
 @import './layout/worktime';
 @import './layout/modal-window';
-@import './components/modal-header-window';

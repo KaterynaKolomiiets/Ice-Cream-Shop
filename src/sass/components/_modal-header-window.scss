@@ -9,7 +9,7 @@
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
-  transition: opacity 500ms, visibility 500ms;
+  transition: opacity var(--transition-duration), visibility var(--transition-duration);
 }
 
 .backdrop-header.is-hidden {
@@ -57,7 +57,7 @@
   width: 11px;
   height: 11px;
   fill: var(--logo);
-  transition: fill 500ms;
+  transition: fill var(--transition-duration);
   .modal__button:hover & {
     fill: var(--main-title-color);
   }
@@ -109,7 +109,7 @@
   padding: 12px 10px 12px 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  transition: border-color 500ms;
+  transition: border-color var(--transition-duration);
   outline: var(--secondary-background);
   &:focus {
     border-color: var(--secondary-title-color);
@@ -135,7 +135,7 @@
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  transition: border-color 500ms;
+  transition: border-color var(--transition-duration);
   &:focus {
     border-color: var(--secondary-title-color);
   }

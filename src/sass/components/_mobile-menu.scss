@@ -5,7 +5,6 @@
   top: 0;
   right: 0;
   padding: 60px 0;
-  // z-index: 100;
   z-index: 100;
   width: 250px;
   transform: translateX(100%);
@@ -59,6 +58,10 @@
   padding-left: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
+  & .menu__link:focus,
+  & .menu__link:hover {
+    color: var(--hover-primary-button-background);
+  }
   &:last-child {
     border-bottom: 1px solid #e18298;
   }
