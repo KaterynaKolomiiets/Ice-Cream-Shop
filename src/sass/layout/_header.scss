@@ -1,15 +1,17 @@
 .header {
   position: absolute;
-  z-index: 5;
+  // z-index: 5;
+  z-index: 3;
+  width: 100%;
   top: 0;
-  left: 50vw;
-  transform: translateX(-50%);
+  left: 0;
+}
+.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 35px;
   padding-bottom: 35px;
-  // overflow: hidden;
 }
 .header__burger {
   display: none;
@@ -25,14 +27,6 @@
     padding: 0;
   }
 }
-// .header-menu-bttn {
-//   border: none;
-//   background-color: transparent;
-//   fill: #d41443;
-//   @media screen and (min-width: 1280px) {
-//     display: none;
-//   }
-// }
 .header__icon {
   display: inline-block;
   height: 18px;
@@ -45,74 +39,67 @@
     display: none;
   }
 }
-.header-menu-button {
-  background-color: #000000;
-  border: none;
-  padding: 0;
-  fill: #000000;
-  @media screen and (min-width: 1280px) {
-    display: none;
-  }
+.header__button.is-hidden {
+  display: none;
 }
 .mobile-menu {
-  position: absolute;
+  position: fixed;
   background-color: #e17992;
-  // width: 100%;
   height: 100vh;
-  // width: 100vw;
   top: 0;
   right: 0;
-  padding: 48px 0;
-  z-index: 100;
-
+  padding: 60px 0;
+  // z-index: 100;
+  z-index: 3;
   width: 250px;
-  // transform: translateX(100%);
+  transform: translateX(100%);
   transition: transform 250ms linear;
   &.is-open {
     transform: translateX(0%);
   }
   @media screen and (min-width: 768px) {
-    width: 254px;
+    width: 39vw;
   }
   @media screen and (min-width: 1280px) {
     display: none;
   }
 }
-.mobile-menu-container {
-  width: 100%;
-  margin: 0 auto;
-  height: 100%;
-  min-height: 400px;
+.mobile-menu.is-open {
+  transform: translateX(0%);
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.2);
 }
-.header-menu-button {
+.close-menu-button {
   position: absolute;
   background-color: transparent;
   border: none;
+  padding: 0px 0px;
   fill: #fff;
   top: 23px;
   right: 28px;
+  height: 14px;
+  width: 14px;
   @media screen and (min-width: 768px) {
     right: 34px;
   }
 }
+.close-menu-icon {
+  height: 14px;
+  width: 14px;
+}
 .menu-button {
-  // width: 90%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    width: 186px;
+  }
   // margin-top: 23px;
 }
-// .menu-button-icon {
-//   fill: var(--main-title-color);
-//   margin-left: 16px;
-// }
 .menu__item {
-  // font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 14px;
   line-height: calc(18 / 14);
-  // display: flex;
-  // align-items: center;
   border-top: 1px solid #e18298;
   padding-left: 24px;
   padding-top: 12px;

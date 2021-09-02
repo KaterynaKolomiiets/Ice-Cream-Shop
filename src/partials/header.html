@@ -1,50 +1,52 @@
-<header class="header container">
-  <a class="logo link header-link header__logo" href="./index.html">
-    <img src="./images/header/logo.png" alt="logotype" />
-  </a>
-  <nav class="nav header-nav">
-    <ul class="nav__list list">
-      <li class="nav__item">
-        <a class="nav__link link nav__link--current" href="">Home</a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link link" href="">About us</a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link link" href="">How it’s made?</a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link link" href="">Our products</a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link link" href="">Contact</a>
-      </li>
-    </ul>
-  </nav>
-  <button class="burger header__burger" type="button">
-    <svg class="burger__icon header__icon">
-      <use href="./images/icons/sprite.svg#icon-burgher"></use>
-    </svg>
-  </button>
-  <!-- <button type="button" class="header-menu-bttn" data-menu-open>
-    <svg class="header-icon-menu" height="20" width="20">
-      <use href="\images\icons\sprite.svg#icon-burgher"></use>
-    </svg>
-  </button> -->
-  <button class="main-button header__button" type="button">
-    Buy now
-    <div class="main-button__wrap">
-      <svg class="main-button__icon">
-        <use href="./images/icons/sprite.svg#icon-arrow-button"></use>
+<header class="header">
+  <div class="container header__container">
+    <a class="logo link header-link header__logo" href="./index.html">
+      <img src="./images/header/logo.png" alt="logotype" />
+    </a>
+    <nav class="nav header-nav">
+      <ul class="nav__list list">
+        <li class="nav__item">
+          <a class="nav__link link nav__link--current" href="">Home</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link link" href="#about-us">About us</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link link" href="#how-its-made">How it’s made?</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link link" href="#our-products">Our products</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="burger header__burger" type="button" data-menu-open>
+      <svg class="burger__icon header__icon">
+        <use href="./images/icons/sprite.svg#icon-burgher"></use>
       </svg>
-    </div>
-  </button>
+    </button>
+    <!-- <button type="button" class="header-menu-bttn" data-menu-open>
+      <svg class="header-icon-menu" height="20" width="20">
+        <use href="\images\icons\sprite.svg#icon-burgher"></use>
+      </svg>
+    </button> -->
+    <button class="main-button header__button" type="button" btn-hide>
+      Buy now
+      <div class="main-button__wrap">
+        <svg class="main-button__icon">
+          <use href="./images/icons/sprite.svg#icon-arrow-button"></use>
+        </svg>
+      </div>
+    </button>
+  </div>
   <!-- MOBILE MENU -->
   <div class="mobile-menu" data-menu>
     <div class="mobile-menu__container">
-      <button type="button" class="header-menu-button" data-menu-close>
-        <svg class="menu-close-icon" height="18" width="18">
-          <use href="\images\icons\sprite.svg#icon-close"></use>
+      <button type="button" class="close-menu-button" data-menu-close>
+        <svg class="close-menu-icon">
+          <use href=".\images\icons\sprite.svg#icon-close"></use>
         </svg>
       </button>
       <button class="main-button menu-button" type="button">
