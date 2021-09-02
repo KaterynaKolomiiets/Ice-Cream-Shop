@@ -14,6 +14,7 @@ button {
   color: var(--main-title-color);
   background-color: var(--secondary-button-color);
   border: transparent;
+  transition: background-color var(--transition-duration);
   &:hover,
   &:focus {
     background-color: var(--hover-button-background);
@@ -22,6 +23,7 @@ button {
 .main-button--dark {
   color: var(--secondary-text-color);
   background-color: var(--primary-button-background);
+  transition: background-color var(--transition-duration);
   &:hover,
   &:focus {
     background-color: var(--hover-primary-button-background);
