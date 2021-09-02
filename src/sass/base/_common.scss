@@ -1,0 +1,36 @@
+// block__elemen--modify
+body {
+  background-color: #ffffff;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 0.03em;
+  font: var(--main-font-family);
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
