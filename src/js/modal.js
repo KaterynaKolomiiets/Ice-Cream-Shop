@@ -1,4 +1,13 @@
-/*(() => {
+
+$('.move').click(function () {
+  $(this).siblings('.product__overlay').addClass('isShown')
+})
+
+$('.isClosed').click(function () {
+  $(this).closest('.product__overlay').removeClass('isShown')
+});
+
+(() => {
   const refs = {
     openModalBtn: document.querySelector('[data-modal-open]'),
     closeModalBtn: document.querySelector('[data-modal-close]'),
@@ -11,7 +20,7 @@
   function toggleModal() {
     refs.modal.classList.toggle('is-hidden');
   }
-})();*/
+})();
 
 // document.querySelector(".move").addEventListener("click", function () {
 //   document.querySelector('.product__overlay').classList.add('isShown');
@@ -20,13 +29,8 @@
 //   document.querySelector('.product__overlay').classList.remove('isShown');
 // });
 
-$('.move').click(function () {
-  $(this).siblings('.product__overlay').addClass('isShown')
-})
 
-$('.isClosed').click(function () {
-  $(this).closest('.product__overlay').removeClass('isShown')
-})
+
 
 
 
