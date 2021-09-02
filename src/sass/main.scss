@@ -19,8 +19,12 @@
 @import './components/navigation';
 @import './components/social-links';
 @import './components/title-style';
+@import './components/mobile-menu';
+@import './components/animations';
+@import './components/modal-header-window';
+@import './components/mobile-footer-window';
 
-// layout
+// LAYOUTS
 @import './layout/feedback';
 @import './layout/footer';
 @import './layout/gallery-masonry';

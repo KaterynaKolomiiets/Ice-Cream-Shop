@@ -3,6 +3,10 @@
   justify-content: center;
 }
 .nav__item {
+  & .nav__link:focus,
+  & .nav__link:hover {
+    color: var(--hover-primary-button-background);
+  }
   &:not(:last-child) {
     margin-right: 35px;
   }
