@@ -1,4 +1,3 @@
-
 /* PROCES CSS */
 
 .process-section {
@@ -8,12 +7,12 @@
   background-position: 0 50%;
   background-color: var(--main-background);
   padding-top: 125px;
-  padding-bottom: 145px;
+  padding-bottom: 97px;
 
   @media screen and (min-width: 768px) {
     background-image: none;
     padding-top: 130px;
-    padding-bottom: 246px;
+    padding-bottom: 140px;
   }
 
   @media screen and (min-width: 1280px) {
@@ -22,7 +21,7 @@
     background-size: 100%;
     background-position: 0 40%;
     padding-top: 125px;
-    padding-bottom: 310px;
+    padding-bottom: 139px;
   }
 }
 
@@ -68,7 +67,6 @@
 }
 
 .description-container {
-
   margin-top: 26px;
   font-family: var(--main-font-family);
   display: block;
@@ -142,6 +140,10 @@
   display: block;
   max-width: 220px;
   margin: 0 auto;
+
+  @media screen and (min-width: 480px) {
+    max-width: 100%;
+  }
 
   @media screen and (min-width: 768px) {
     max-width: 340px;
