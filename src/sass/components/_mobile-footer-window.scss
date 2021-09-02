@@ -1,0 +1,39 @@
+.footer__backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--backdrop-color);
+  transition: opacity var(--transition-duration), visibility var(--transition-duration);
+  &.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+.footer__modal {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(71, 71, 212);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @media screen and (min-width: 780px) {
+    width: 500px;
+    height: 500px;
+  }
+}
+.footer__close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background: #ffffff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
