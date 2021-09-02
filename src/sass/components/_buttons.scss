@@ -1,3 +1,6 @@
+button {
+  cursor: pointer;
+}
 .main-button {
   display: flex;
   align-items: center;
@@ -11,10 +14,18 @@
   color: var(--main-title-color);
   background-color: var(--secondary-button-color);
   border: transparent;
+  &:hover,
+  &:focus {
+    background-color: var(--hover-button-background);
+  }
 }
 .main-button--dark {
   color: var(--secondary-text-color);
-  background-color: #d41342;
+  background-color: var(--primary-button-background);
+  &:hover,
+  &:focus {
+    background-color: var(--hover-primary-button-background);
+  }
 }
 
 .main-button__wrap {
@@ -28,6 +39,9 @@
   height: 10px;
   width: 7px;
   fill: var(--main-title-color);
+  &.white-arrow {
+    fill: #ffffff;
+  }
 }
 
 .burger {
