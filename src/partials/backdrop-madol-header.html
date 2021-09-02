@@ -1,8 +1,8 @@
-<div class="backdrop is-hidden" data-modal>
+<div class="backdrop-header is-hidden" data-modal-head>
   <div class="modal-header">
-    <button class="modal-header__button--close" type="button" data-modal-close>
+    <button class="modal-header__button--close" type="button" data-modal-head-close>
       <svg class="modal-header__icon">
-        <use href=".\images\icons\sprite.svg#icon-close"></use>
+        <use href="./images/icons/sprite.svg#icon-close"></use>
       </svg>
     </button>
     <form class="modal-form" action="#">
@@ -57,27 +57,7 @@
           placeholder="Введите текст"
         ></textarea>
       </div>
-
-      <label class="modal-form__policy" for="checkbox-policy">
-        <input
-          class="modal-form__policy-checkbox visually-hidden"
-          type="checkbox"
-          name="policy"
-          id="checkbox-policy"
-          required
-        />
-        <span aria-hidden="true" class="modal-form__policy-wrap">
-          <svg class="modal-form__policy-icon" width="11px" height="8px">
-            <use href="./images/svg/sprite.svg#icon-check"></use>
-          </svg>
-        </span>
-        <span class="modal-form__policy-text"
-          >Соглашаюсь с рассылкой и принимаю
-          <a class="modal-form__policy-link" href="">Условия договора</a>
-        </span>
-      </label>
-
-      <button class="button modal__nutton" type="submit">Отправить</button>
+      <button class="main-button main-button--dark" type="submit">Отправить</button>
     </form>
   </div>
 </div>

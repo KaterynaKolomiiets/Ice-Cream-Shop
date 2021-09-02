@@ -1,4 +1,4 @@
-.backdrop {
+.backdrop-header {
   position: fixed;
   top: 0%;
   left: 0%;
@@ -8,10 +8,10 @@
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
-  transition: opacity 500ms, visibility 500ms;
+  // transition: opacity 500ms, visibility 500ms;
 }
 
-.backdrop.is-hidden {
+.backdrop-header.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
@@ -146,55 +146,55 @@
   }
 }
 
-.modal-form__policy {
-  display: block;
-  position: relative;
-  margin: 20px auto 30px;
-  @media screen and (min-width: 1200px) {
-    margin-left: 10px;
-    // margin-left: auto;
-    // margin-right: auto;
-  }
-}
+// .modal-form__policy {
+//   display: block;
+//   position: relative;
+//   margin: 20px auto 30px;
+//   @media screen and (min-width: 1200px) {
+//     margin-left: 10px;
+//     // margin-left: auto;
+//     // margin-right: auto;
+//   }
+// }
 
-.modal-form__policy-checkbox {
-  display: block;
-  margin-left: 0;
-  top: 50%;
-  left: 7px;
-  transform: translateY(50%);
-}
+// .modal-form__policy-checkbox {
+//   display: block;
+//   margin-left: 0;
+//   top: 50%;
+//   left: 7px;
+//   transform: translateY(50%);
+// }
 
-.modal-form__policy-wrap {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 7px;
-  width: 16px;
-  height: 16px;
-  border: 1px solid #212121;
-  border-radius: 2px;
-  .modal-form__policy-checkbox:checked + & {
-    border: 1px solid transparent;
-    fill: var(--secondary-title-color);
-    background-color: var(--accent-color);
-  }
-}
+// .modal-form__policy-wrap {
+//   display: inline-flex;
+//   justify-content: center;
+//   align-items: center;
+//   margin-right: 7px;
+//   width: 16px;
+//   height: 16px;
+//   border: 1px solid #212121;
+//   border-radius: 2px;
+//   .modal-form__policy-checkbox:checked + & {
+//     border: 1px solid transparent;
+//     fill: var(--secondary-title-color);
+//     background-color: var(--accent-color);
+//   }
+// }
 
-.modal-form__policy-icon {
-  fill: var(--secondary-title-color);
-}
+// .modal-form__policy-icon {
+//   fill: var(--secondary-title-color);
+// }
 
-.modal-form__policy-text {
-  font-size: 12px;
-  line-height: calc(14 / 12);
-  letter-spacing: 0.03em;
-  @media screen and (min-width: 1200px) {
-    font-size: 14px;
-    line-height: 1.71;
-  }
-}
+// .modal-form__policy-text {
+//   font-size: 12px;
+//   line-height: calc(14 / 12);
+//   letter-spacing: 0.03em;
+//   @media screen and (min-width: 1200px) {
+//     font-size: 14px;
+//     line-height: 1.71;
+//   }
+// }
 
-.modal-form__policy-link {
-  color: var(--accent-color);
-}
+// .modal-form__policy-link {
+//   color: var(--accent-color);
+// }
