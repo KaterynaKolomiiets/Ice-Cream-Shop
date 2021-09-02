@@ -129,20 +129,31 @@
     </ul>
 
     <div class="worktime__buttons">
-        <button type="button" class="main-button main-button--dark">Our Locations
+        <button type="button" class="main-button main-button--dark" footer-data-modal-open>
+            Our Locations
             <div class="main-button__wrap">
                 <svg class="main-button__icon white-arrow" width="10" height="10">
                     <use href="./images/icons/sprite.svg#icon-arrow-button"></use>
                 </svg>
             </div>
         </button>
-        <button type="button" class="main-button">Franchise
+        <button type="button" class="main-button" footer-data-modal-open>
+            Franchise
             <div class="main-button__wrap"></div>
                 <svg class="main-button__icon" width="10" height="10">
                     <use href="./images/icons/sprite.svg#icon-arrow-button"></use>
                 </svg>
             </div>
         </button>
+    </div>
+    <div class="backdrop-footer is-hidden" footer-data-modal>
+        <div class="footer-modal">
+            <button type="footer__btn-close" class="close-btn" footer-data-modal-close>
+                <svg class="footer__close-btn-icon" width="10" height="10">
+                    <use href="./images/icons/sprite.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
     </div>
 
 </section>
