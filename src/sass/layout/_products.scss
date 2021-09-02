@@ -95,6 +95,7 @@
 .overlay__header {
   text-align: center;
   color: var(--main-title-color);
+  font-family: var(--header-font-family);
 }
 @media screen and (min-width: 768px) {
   .products__list {
