@@ -1,8 +1,8 @@
 (() => {
   const refs = {
-    openModalHeadBtn: document.querySelector('[footer-data-modal-open]'),
-    closeModalHeadBtn: document.querySelector('[footer-data-modal-close]'),
-    modal: document.querySelector('[footer-data-modal]'),
+    openModalHeadBtn: document.querySelector('[data-footer-modal-open]'),
+    closeModalHeadBtn: document.querySelector('[data-footer-modal-close]'),
+    modal: document.querySelector('[data-footer-modal]'),
   };
 
   refs.openModalHeadBtn.addEventListener('click', toggleModal);
@@ -15,9 +15,9 @@
 
 (() => {
   const refs = {
-    openModalHeadBtn: document.querySelector('[footer-second-data-modal-open]'),
-    closeModalHeadBtn: document.querySelector('[footer-second-data-modal-close]'),
-    modal: document.querySelector('[footer-second-data-modal]'),
+    openModalHeadBtn: document.querySelector('[data-footer-second-modal-open]'),
+    closeModalHeadBtn: document.querySelector('[data-footer-second-modal-close]'),
+    modal: document.querySelector('[data-footer-second-modal]'),
   };
 
   refs.openModalHeadBtn.addEventListener('click', toggleModal);
