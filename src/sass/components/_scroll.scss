@@ -2,13 +2,10 @@
   position: fixed;
   display: inline-block;
   bottom: 10px;
-  right: 10px;
-  height: 40px;
-  width: 40px;
+  left: 10px;
+
   padding: 0 0;
   z-index: 10;
-  border-radius: 50%;
-  background-color: rgba(225, 121, 146, 0.5);
   @media screen and (min-width: 768px) {
     height: 40px;
     width: 40px;
@@ -24,18 +21,25 @@
 }
 
 .scroll__link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--secondary-background);
-
-  width: 10px;
-  height: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgba(225, 121, 146, 0.2);
+  &:hover {
+    background-color: rgba(225, 121, 146, 0.8);
+  }
+  &:hover .scroll__icon {
+    fill: var(--secondary-text-color);
+  }
 }
 .scroll__icon {
   width: 10px;
   height: 10px;
   fill: var(--main-title-color);
+  transform: rotate(-90deg);
 }
 @media screen and (min-width: 768px) {
 }
