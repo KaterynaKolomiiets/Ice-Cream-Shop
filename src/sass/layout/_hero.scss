@@ -191,17 +191,12 @@
     line-height: 1.4;
     color: var(--secondary-text-color);
     border-radius: 4px;
-    background-image: url(../images/hero/easter/slide-pic.png);
+    background-image: url(../images/hero/slide-pic.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     transform: translateX(280%) translateY(-200%);
     transition: transform var(--transition-duration) linear;
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-      screen and (min-resolution: 192dpi) and (min-width: 768px),
-      screen and (min-resolution: 2dppx) and (min-width: 768px) {
-      background-image: url(../images/hero/easter/slide-pic@2x.png);
-    }
   }
   @media screen and (min-width: 1280px) {
     transform: translateX(360%) translateY(-210%);
