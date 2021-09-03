@@ -15,9 +15,9 @@
 
 (() => {
   const refs = {
-    openModalHeadBtn: document.querySelector('[footer-secand-data-modal-open]'),
-    closeModalHeadBtn: document.querySelector('[footer-secand-data-modal-close]'),
-    modal: document.querySelector('[footer-secand-data-modal]'),
+    openModalHeadBtn: document.querySelector('[footer-second-data-modal-open]'),
+    closeModalHeadBtn: document.querySelector('[footer-second-data-modal-close]'),
+    modal: document.querySelector('[footer-second-data-modal]'),
   };
 
   refs.openModalHeadBtn.addEventListener('click', toggleModal);
