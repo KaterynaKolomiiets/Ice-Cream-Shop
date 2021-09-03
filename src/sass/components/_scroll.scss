@@ -24,7 +24,9 @@
 }
 
 .scroll__link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--secondary-background);
 
   width: 10px;
