@@ -115,12 +115,14 @@
 }
 
 .slider__dots {
+  display: block;
   margin-top: 15px;
   margin-right: auto;
   margin-bottom: 15px;
   margin-left: auto;
   height: 4px;
   width: 32px;
+  fill: var(--hover-primary-button-background);
 }
 
 .slider__address {
