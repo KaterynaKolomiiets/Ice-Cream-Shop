@@ -13,11 +13,16 @@
   @media screen and (min-width: 1280px) {
     font-size: 16px;
     line-height: 1.8;
-    background-image: url(../images/worktime/decoration.png),
+    background-image: url(../images/worktime/sectionbg.png),
       linear-gradient(to top, var(--main-background) 78%, #ffffff 24%);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-y: 30%;
+  }
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+    (min-resolution: 192dpi) and (min-width: 1200px),
+    (min-resolution: 2dppx) and (min-width: 1200px) {
+    background-image: url(../images/worktime/sectionbg@2x.png);
   }
 }
 
