@@ -1,13 +1,20 @@
 /* PROCES CSS */
 
 .process-section {
-  background-image: url('../images/process/bg-milk-process-section.png');
+  background-image: url('../images/process/bg-milk-process-section-mobile.png');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0 50%;
   background-color: var(--main-background);
   padding-top: 125px;
   padding-bottom: 97px;
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('../images/process/bg-milk-process-section-mobile-@2x.png');
+  }
 
   @media screen and (min-width: 768px) {
     background-image: none;
@@ -16,12 +23,19 @@
   }
 
   @media screen and (min-width: 1280px) {
-    background-image: url('../images/process/bg-milk-process-section.png');
+    background-image: url('../images/process/bg-milk-process-section-desktop.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0 60%;
     padding-top: 125px;
     padding-bottom: 139px;
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('../images/process/bg-milk-process-section-desktop-@2x.png');
+    }
   }
 }
 
