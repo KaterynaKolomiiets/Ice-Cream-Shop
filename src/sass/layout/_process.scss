@@ -19,7 +19,7 @@
     background-image: url('../images/process/bg-milk-process-section.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 0 40%;
+    background-position: 0 60%;
     padding-top: 125px;
     padding-bottom: 139px;
   }
@@ -91,9 +91,12 @@
 
   @media screen and (min-width: 768px) {
     margin-right: 17px;
+    position: relative;
+    top: -50px;
   }
   @media screen and (min-width: 1280px) {
     margin-right: 74px;
+    top: 50px;
   }
 }
 
@@ -167,7 +170,7 @@
     margin-top: 62px;
   }
   @media screen and (min-width: 1280px) {
-    margin-top: 47px;
+    margin-top: 45px;
   }
 }
 
@@ -184,18 +187,22 @@
 
 .definitions-list__containers {
   &:not(:last-child) {
-    margin-bottom: 28px;
+    margin-bottom: 38px;
   }
   max-width: 220px;
 
   @media screen and (min-width: 768px) {
     &:not(:last-child) {
-      margin-right: 40px;
+      margin-right: 60px;
+      margin-bottom: 0;
     }
     max-width: 180px;
   }
   @media screen and (min-width: 1280px) {
-    max-width: 300px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+    max-width: 330px;
     display: block;
   }
 }
