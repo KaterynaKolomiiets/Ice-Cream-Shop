@@ -1,33 +1,60 @@
-button {
-  cursor: pointer;
-}
-.main-button {
+.button {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 35px;
-  height: 44px;
+  height: 40px;
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  transition: background-color var(--transition-duration);
+  border: 1px solid transparent;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(21 / 16);
-  border-radius: 22px;
-  color: var(--main-title-color);
+
+}
+
+.primary-button {
+  background-color: var(--primary-button-background);
+  color: var(--secondary-text-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--hover-primary-button-background);
+  }
+}
+
+.secondary-button {
   background-color: var(--secondary-button-color);
-  border: transparent;
-  transition: background-color var(--transition-duration);
+  color: var(--main-title-color);
+
   &:hover,
   &:focus {
     background-color: var(--hover-button-background);
   }
 }
-.main-button--dark {
-  color: var(--secondary-text-color);
-  background-color: var(--primary-button-background);
-  transition: background-color var(--transition-duration);
-  &:hover,
-  &:focus {
-    background-color: var(--hover-primary-button-background);
+.btn-big {
+padding: 10px 35px;
+}
+
+.location-button {
+  width: 205px;
+  @media screen and (max-width: 768px) {
+    &:first-child {
+      margin-bottom: 10px;
+    }
   }
+
+  @media screen and (min-width: 768px) {
+    &:first-child {
+      margin-right:15px;
+    }
+  }
+}
+.button-modal {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-button__wrap {
@@ -64,22 +91,6 @@ button {
   fill: var(--main-title-color);
 }
 
-.secondary-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  padding: 10px 24px;
-  background-color: var(--primary-button-background);
-  border-radius: 20px;
-  font-size: 14px;
-  line-height: calc(18 / 14);
-  color: var(--secondary-text-color);
-}
-.secondary-button--light {
-  background-color: var(--secondary-button-color);
-  color: var(--main-title-color);
-}
 
 .description-button {
   display: flex;

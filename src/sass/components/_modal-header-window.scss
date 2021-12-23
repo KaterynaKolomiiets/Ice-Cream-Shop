@@ -51,16 +51,27 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: transparent;
+  transition: background-color var(--transition-duration),
+ border-color var(--transition-duration);
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+     background-color: var(--hover-primary-button-background);
+     border-color: var(--hover-primary-button-background);
+  }
+
+  &:hover .modal-header__icon,
+  &:focus .modal-header__icon { 
+    fill: var(--tertiary-background-color);
+  }
 }
 .modal-header__icon {
   width: 11px;
   height: 11px;
   fill: var(--logo);
   transition: fill var(--transition-duration);
-  .modal__button:hover & {
-    fill: var(--main-title-color);
-  }
+
 }
 .modal-form {
   padding: 30px 15px 15px;
@@ -146,7 +157,7 @@
     color: var(--main-title-color);
   }
 }
-.modal-submit-btn {
-  margin-right: auto;
-  margin-left: auto;
-}
+// .modal-submit-btn {
+//   margin-right: auto;
+//   margin-left: auto;
+// }

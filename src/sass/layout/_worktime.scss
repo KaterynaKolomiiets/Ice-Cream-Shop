@@ -118,15 +118,13 @@
 .worktime__buttons {
   display: flex;
   justify-content: center;
+  align-items:center;
   margin-top: 80px;
-  @media screen and (max-width: 767px) {
-    flex-wrap: wrap;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     max-width: 320px;
-    .main-button--dark {
-      margin-bottom: 10px;
-    }
   }
   @media screen and (min-width: 768px) {
     .main-button--dark {
